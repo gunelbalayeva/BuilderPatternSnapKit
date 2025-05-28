@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		CE40347E2DE5E0FB003270EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40347D2DE5E0FB003270EF /* AppDelegate.swift */; };
 		CE4034802DE5E0FB003270EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40347F2DE5E0FB003270EF /* SceneDelegate.swift */; };
-		CE4034822DE5E0FB003270EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034812DE5E0FB003270EF /* ViewController.swift */; };
-		CE4034852DE5E0FB003270EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4034832DE5E0FB003270EF /* Main.storyboard */; };
 		CE4034872DE5E0FD003270EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4034862DE5E0FD003270EF /* Assets.xcassets */; };
 		CE40348A2DE5E0FD003270EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4034882DE5E0FD003270EF /* LaunchScreen.storyboard */; };
+		CE4034992DE5E304003270EF /* MainTabbbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034982DE5E304003270EF /* MainTabbbarViewController.swift */; };
+		CE40349C2DE5E37B003270EF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE40349B2DE5E37B003270EF /* SnapKit */; };
+		CE40349E2DE5E37B003270EF /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CE40349D2DE5E37B003270EF /* SnapKit-Dynamic */; };
+		CE4034A02DE5E558003270EF /* SifarislerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40349F2DE5E558003270EF /* SifarislerViewController.swift */; };
+		CE4034A32DE5F18C003270EF /* BarNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034A22DE5F18C003270EF /* BarNameViewController.swift */; };
+		CE4034A52DE5F1DA003270EF /* BeyannameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034A42DE5F1DA003270EF /* BeyannameViewController.swift */; };
+		CE4034A72DE5F1F4003270EF /* BalansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034A62DE5F1F4003270EF /* BalansViewController.swift */; };
+		CE4034A92DE5F20E003270EF /* MenyuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034A82DE5F20E003270EF /* MenyuViewController.swift */; };
+		CE4034AB2DE5FECD003270EF /* YeniSifarisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034AA2DE5FECD003270EF /* YeniSifarisViewController.swift */; };
+		CE4034AD2DE6F83E003270EF /* YeniSifarislerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034AC2DE6F83E003270EF /* YeniSifarislerViewController.swift */; };
+		CE4034B02DE7009F003270EF /* SifarisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034AF2DE7009F003270EF /* SifarisCell.swift */; };
+		CE4034B52DE70484003270EF /* SifarisBeyannameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034B42DE70484003270EF /* SifarisBeyannameViewController.swift */; };
+		CE4034B82DE75CD9003270EF /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034B72DE75CD9003270EF /* BaseButton.swift */; };
+		CE4034BA2DE76012003270EF /* SifarisEtInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034B92DE76012003270EF /* SifarisEtInputData.swift */; };
+		CE4034BC2DE7603E003270EF /* SifarisEtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034BB2DE7603E003270EF /* SifarisEtViewModel.swift */; };
+		CE4034BE2DE76189003270EF /* SifarisEtBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4034BD2DE76189003270EF /* SifarisEtBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE40347A2DE5E0FB003270EF /* BuilderPatternSnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuilderPatternSnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40347D2DE5E0FB003270EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE40347F2DE5E0FB003270EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE4034812DE5E0FB003270EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE4034842DE5E0FB003270EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE4034862DE5E0FD003270EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4034892DE5E0FD003270EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE40348B2DE5E0FD003270EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4034982DE5E304003270EF /* MainTabbbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbbarViewController.swift; sourceTree = "<group>"; };
+		CE40349F2DE5E558003270EF /* SifarislerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarislerViewController.swift; sourceTree = "<group>"; };
+		CE4034A22DE5F18C003270EF /* BarNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarNameViewController.swift; sourceTree = "<group>"; };
+		CE4034A42DE5F1DA003270EF /* BeyannameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeyannameViewController.swift; sourceTree = "<group>"; };
+		CE4034A62DE5F1F4003270EF /* BalansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalansViewController.swift; sourceTree = "<group>"; };
+		CE4034A82DE5F20E003270EF /* MenyuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenyuViewController.swift; sourceTree = "<group>"; };
+		CE4034AA2DE5FECD003270EF /* YeniSifarisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeniSifarisViewController.swift; sourceTree = "<group>"; };
+		CE4034AC2DE6F83E003270EF /* YeniSifarislerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeniSifarislerViewController.swift; sourceTree = "<group>"; };
+		CE4034AF2DE7009F003270EF /* SifarisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisCell.swift; sourceTree = "<group>"; };
+		CE4034B42DE70484003270EF /* SifarisBeyannameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisBeyannameViewController.swift; sourceTree = "<group>"; };
+		CE4034B72DE75CD9003270EF /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		CE4034B92DE76012003270EF /* SifarisEtInputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisEtInputData.swift; sourceTree = "<group>"; };
+		CE4034BB2DE7603E003270EF /* SifarisEtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisEtViewModel.swift; sourceTree = "<group>"; };
+		CE4034BD2DE76189003270EF /* SifarisEtBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifarisEtBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE40349C2DE5E37B003270EF /* SnapKit in Frameworks */,
+				CE40349E2DE5E37B003270EF /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,99 @@
 		CE40347C2DE5E0FB003270EF /* BuilderPatternSnapKit */ = {
 			isa = PBXGroup;
 			children = (
-				CE40347D2DE5E0FB003270EF /* AppDelegate.swift */,
-				CE40347F2DE5E0FB003270EF /* SceneDelegate.swift */,
-				CE4034812DE5E0FB003270EF /* ViewController.swift */,
-				CE4034832DE5E0FB003270EF /* Main.storyboard */,
-				CE4034862DE5E0FD003270EF /* Assets.xcassets */,
+				CE4034B62DE75C9C003270EF /* Views */,
+				CE4034AE2DE70092003270EF /* Cells */,
+				CE4034972DE5E24E003270EF /* Modules */,
+				CE4034962DE5E235003270EF /* Builders */,
+				CE4034952DE5E217003270EF /* Base */,
+				CE4034942DE5E1CA003270EF /* Resources */,
+				CE4034922DE5E13E003270EF /* Tabbar */,
+				CE4034912DE5E126003270EF /* App */,
 				CE4034882DE5E0FD003270EF /* LaunchScreen.storyboard */,
 				CE40348B2DE5E0FD003270EF /* Info.plist */,
 			);
 			path = BuilderPatternSnapKit;
+			sourceTree = "<group>";
+		};
+		CE4034912DE5E126003270EF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE40347D2DE5E0FB003270EF /* AppDelegate.swift */,
+				CE40347F2DE5E0FB003270EF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE4034922DE5E13E003270EF /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034A12DE5F16F003270EF /* Views */,
+				CE4034982DE5E304003270EF /* MainTabbbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		CE4034942DE5E1CA003270EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034862DE5E0FD003270EF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE4034952DE5E217003270EF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034B72DE75CD9003270EF /* BaseButton.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE4034962DE5E235003270EF /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034BD2DE76189003270EF /* SifarisEtBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		CE4034972DE5E24E003270EF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034B92DE76012003270EF /* SifarisEtInputData.swift */,
+				CE4034BB2DE7603E003270EF /* SifarisEtViewModel.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE4034A12DE5F16F003270EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034A22DE5F18C003270EF /* BarNameViewController.swift */,
+				CE4034A42DE5F1DA003270EF /* BeyannameViewController.swift */,
+				CE4034A62DE5F1F4003270EF /* BalansViewController.swift */,
+				CE4034A82DE5F20E003270EF /* MenyuViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE4034AE2DE70092003270EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE4034AF2DE7009F003270EF /* SifarisCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CE4034B62DE75C9C003270EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE40349F2DE5E558003270EF /* SifarislerViewController.swift */,
+				CE4034AA2DE5FECD003270EF /* YeniSifarisViewController.swift */,
+				CE4034AC2DE6F83E003270EF /* YeniSifarislerViewController.swift */,
+				CE4034B42DE70484003270EF /* SifarisBeyannameViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +195,10 @@
 			dependencies = (
 			);
 			name = BuilderPatternSnapKit;
+			packageProductDependencies = (
+				CE40349B2DE5E37B003270EF /* SnapKit */,
+				CE40349D2DE5E37B003270EF /* SnapKit-Dynamic */,
+			);
 			productName = BuilderPatternSnapKit;
 			productReference = CE40347A2DE5E0FB003270EF /* BuilderPatternSnapKit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +227,9 @@
 				Base,
 			);
 			mainGroup = CE4034712DE5E0FB003270EF;
+			packageReferences = (
+				CE40349A2DE5E37B003270EF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = CE40347B2DE5E0FB003270EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +246,6 @@
 			files = (
 				CE40348A2DE5E0FD003270EF /* LaunchScreen.storyboard in Resources */,
 				CE4034872DE5E0FD003270EF /* Assets.xcassets in Resources */,
-				CE4034852DE5E0FB003270EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +256,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4034822DE5E0FB003270EF /* ViewController.swift in Sources */,
+				CE4034B82DE75CD9003270EF /* BaseButton.swift in Sources */,
+				CE4034A72DE5F1F4003270EF /* BalansViewController.swift in Sources */,
+				CE4034BE2DE76189003270EF /* SifarisEtBuilder.swift in Sources */,
+				CE4034B52DE70484003270EF /* SifarisBeyannameViewController.swift in Sources */,
+				CE4034AD2DE6F83E003270EF /* YeniSifarislerViewController.swift in Sources */,
+				CE4034A92DE5F20E003270EF /* MenyuViewController.swift in Sources */,
+				CE4034992DE5E304003270EF /* MainTabbbarViewController.swift in Sources */,
+				CE4034AB2DE5FECD003270EF /* YeniSifarisViewController.swift in Sources */,
+				CE4034B02DE7009F003270EF /* SifarisCell.swift in Sources */,
 				CE40347E2DE5E0FB003270EF /* AppDelegate.swift in Sources */,
+				CE4034A02DE5E558003270EF /* SifarislerViewController.swift in Sources */,
+				CE4034A32DE5F18C003270EF /* BarNameViewController.swift in Sources */,
 				CE4034802DE5E0FB003270EF /* SceneDelegate.swift in Sources */,
+				CE4034A52DE5F1DA003270EF /* BeyannameViewController.swift in Sources */,
+				CE4034BC2DE7603E003270EF /* SifarisEtViewModel.swift in Sources */,
+				CE4034BA2DE76012003270EF /* SifarisEtInputData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE4034832DE5E0FB003270EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE4034842DE5E0FB003270EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE4034882DE5E0FD003270EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +419,6 @@
 				INFOPLIST_FILE = BuilderPatternSnapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +445,6 @@
 				INFOPLIST_FILE = BuilderPatternSnapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +482,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE40349A2DE5E37B003270EF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE40349B2DE5E37B003270EF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE40349A2DE5E37B003270EF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CE40349D2DE5E37B003270EF /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE40349A2DE5E37B003270EF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE4034722DE5E0FB003270EF /* Project object */;
 }
