@@ -41,7 +41,6 @@ class SifarislerViewController: UIViewController {
         view.backgroundColor = .white
         setupNavigationBar()
         setupUI()
-        bindViewModel()
     }
     
     private func setupNavigationBar() {
@@ -76,12 +75,6 @@ class SifarislerViewController: UIViewController {
             make.width.lessThanOrEqualToSuperview().offset(-32)
         }
         
-    }
-    
-    private func bindViewModel() {
-        //            emptyStateLabel.isHidden = !viewModel.isOrderListEmpty
-        //            emptyStateSubtitle.isHidden = !viewModel.isOrderListEmpty
-        //            addOrderButton.isHidden = !viewModel.isOrderListEmpty
     }
     
     @objc
