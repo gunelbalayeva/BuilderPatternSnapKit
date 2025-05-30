@@ -32,7 +32,7 @@ class YeniSifarisViewController :UIViewController {
     }()
 
 
-       private let elaveEtButton: BaseButton = {
+       private lazy var elaveEtButton: BaseButton = {
            let button =  BaseButton()
            button.setTitle("Əlavə et", for: .normal)
            button.heightAnchor.constraint(equalToConstant: 45).isActive = true
